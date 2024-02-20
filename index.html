@@ -3,27 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+
     <title>The Weather</title>
 </head>
 <body>
-    <div>
+    <div class="weather-app">
     <header>
-    <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search"/>
+    <form class="forms">
+<input type="search" placeholder="Enter a city" required id="enter" class="search-input"/>
+        <input type="submit" value="Search" id="search-button" class="search-button"/>
     </form>
     </header>
 <main>
+    <h2>
+ Pretoria
+    </h2>
     <h1>
-        Pretoria
+        <span class="material-symbols-outlined">
+            sunny
+        </span>
+        <br/>
+         25° c
     </h1>
     <p>
        Partly cloudy
        <br/>
-       Humidity= <strong>30%</strong> Wind =<strong> 5km/h</strong>
+       <br/>
+       Humidity <strong>30%</strong> Wind <strong> 5km/h</strong>
     </p>
+
     <div>
-        &#x26C5; 26°c
     </div>
 </main>
 <footer>

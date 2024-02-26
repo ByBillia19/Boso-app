@@ -4,6 +4,14 @@ body{
     font-family: "Roboto", sans-serif;
     
 }
+h1{
+        font-size: 4em;
+            font-weight: bold;
+        
+}
+h2{
+    color:rgb(172, 172, 250) ;
+}
 .weather-app{
     background: white;
         max-width: 600px;
@@ -15,7 +23,7 @@ body{
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
-        'wght' 400,
+        'wght' 600,
         'GRAD' 0,
         'opsz' 24,
     }

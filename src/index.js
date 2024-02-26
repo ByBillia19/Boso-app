@@ -6,7 +6,10 @@ function displayTemperature(response) {
             temperatureElement.innerHTML = temperature;
             let descriptionElement= document.querySelector("#description");
             descriptionElement.innerHTML=response.data.condition.description;
-            console.log(response.data.condition.description);
+let humidityElement=document.querySelector("#humidity");
+humidityElement.innerHTML=response.data.temperature.humidity;
+let winSpeedElement=document.querySelector("#wind-speed");
+winSpeedElement.innerHTML=response.data.wind.speed;
         }
 
         function search(event) {

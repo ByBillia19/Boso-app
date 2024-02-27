@@ -10,6 +10,10 @@ let humidityElement=document.querySelector("#humidity");
 humidityElement.innerHTML=response.data.temperature.humidity;
 let winSpeedElement=document.querySelector("#wind-speed");
 winSpeedElement.innerHTML=response.data.wind.speed;
+
+let iconElement = document.querySelector("#icon");
+ iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
+console.log(response.data);
         }
 
         function search(event) {

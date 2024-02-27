@@ -20,13 +20,12 @@ h2{
         border-radius: 10px;
         box-shadow: 0 45px 69px rgba(65, 50, 100, 0.08);
 }
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 600,
-        'GRAD' 0,
-        'opsz' 24,
-    }
+.weather-app-icon{
+    width: 88px;
+    height: 88px;
+    margin-top: 22px;
+}
+    
 
 .search-input{
     background-color: #f9f7fe;
